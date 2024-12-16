@@ -29,6 +29,7 @@ public class ArraysInJava {
 		System.out.println(str1[4]);
 		
 		System.out.println(str1.length);
+
 	}
 
 }
