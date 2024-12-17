@@ -7,7 +7,7 @@ import java.util.Iterator;
 public class ArrayList1 {
 
 	public static void main(String[] args) {
-
+                // This is a comment.
 		List<String> fruites = new ArrayList<>();
 
 		fruites.add("Apple");
