@@ -7,7 +7,7 @@ import java.util.Iterator;
 public class ArrayList1 {
 
 	public static void main(String[] args) {
-                // This is a comment.
+		// This is a comment.
 		List<String> fruites = new ArrayList<>();
 
 		fruites.add("Apple");
@@ -25,7 +25,7 @@ public class ArrayList1 {
 		}
 
 		System.out.println("============================");
-		
+
 		fruites.add("Grapes");
 		fruites.add("Kiwi");
 
@@ -34,9 +34,9 @@ public class ArrayList1 {
 		while(itr.hasNext()) {
 			System.out.println(itr.next());
 		}
-		
+
 		System.out.println("============================");
-		
+
 		fruites.removeFirst();
 		System.out.println(fruites);
 		fruites.removeLast();
