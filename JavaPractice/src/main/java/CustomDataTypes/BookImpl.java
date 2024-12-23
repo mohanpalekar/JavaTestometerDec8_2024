@@ -14,6 +14,9 @@ public class BookImpl {
 
 		Book b1 = new Book("Name1", "Author1", dt, 200.45f);
 
+		//	b1.name = "NewName";
+
+
 		System.out.println(b1);
 
 		Book b2 = new Book("Name2", "Author2", LocalDate.of(2021, 1, 23), 2100.45f);
